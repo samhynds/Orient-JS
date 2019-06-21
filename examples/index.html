@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OrientJS Demo</title>
+
+  <!-- The default stylesheet which themes orient. Feel free to modify this. -->
+  <link rel="stylesheet" href="default.css">
+
+  <!-- The stylesheet for this page. -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bulma, a CSS framework just used for layout on this demo page.  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+</head>
+
+<body>
+
+  <!-- Just an example layout to demonstrate OrientJS -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        <strong>OrientJS Demo</strong>
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+
+        <a class="navbar-item">
+          Featured Products
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable categories-nav-button">
+          <a class="navbar-link">
+            Categories
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Books
+            </a>
+            <a class="navbar-item">
+              Music
+            </a>
+            <a class="navbar-item">
+              Artwork
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              View all
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary basket-button">
+              Basket (4)
+            </a>
+            <a class="button is-light">
+              Log out
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" data-orient-target="slide1-title">
+          OrientJS Demo
+        </h1>
+        <h2 class="subtitle">
+          This is an example of how OrientJS works in a webpage.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <img src="media/product1.jpg" alt="Product image">
+          <h3 class="product-title">Oceans</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+        <div class="column">
+          <img src="media/product2.jpg" alt="Product image">
+          <h3 class="product-title">Bark</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+        <div class="column">
+          <img src="media/product3.jpg" alt="Product image">
+          <h3 class="product-title">Vein</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <img src="media/product4.jpg" alt="Product image" data-orient-target="bioluminescence-image">
+          <h3 class="product-title">Bioluminescence</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+        <div class="column">
+          <img src="media/product5.jpg" alt="Product image">
+          <h3 class="product-title">Electronic</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+        <div class="column">
+          <img src="media/product6.jpg" alt="Product image">
+          <h3 class="product-title">A Troll and a Toad</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <img src="media/product7.jpg" alt="Product image">
+          <h3 class="product-title">Tree</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+        <div class="column">
+          <img src="media/product8.jpg" alt="Product image">
+          <h3 class="product-title">Abstract XIV</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+        <div class="column">
+          <img src="media/product9.jpg" alt="Product image">
+          <h3 class="product-title">Spiral</h3>
+          <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla expedita
+            rerum tempora temporibus quidem ad ipsum nihil optio animi quam recusandae dolores ex suscipit, sint quas
+            illum quasi tempore.</p>
+          <div class="buttons ">
+            <a class="button is-light">Read More</a>
+            <a class="button is-primary">Purchase</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="pagination" role="navigation" aria-label="pagination">
+        <a class="pagination-previous" title="This is the first page" disabled>Previous</a>
+        <a class="pagination-next">Next page</a>
+        <ul class="pagination-list">
+          <li>
+            <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+          </li>
+          <li>
+            <a class="pagination-link" aria-label="Goto page 2">2</a>
+          </li>
+          <li>
+            <a class="pagination-link" aria-label="Goto page 3">3</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+
+  <script src="orient.js"></script>
+  <script>
+    var orient = new Orient({
+      flowURL: 'flows/demo.json',
+      keyEvents: true
+    });
+
+    orient.loadFlow(function () {
+      orient.startFlow();
+    });
+
+  </script>
+</body>
+
+</html>

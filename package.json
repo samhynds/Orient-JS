@@ -1,0 +1,23 @@
+{
+  "name": "orient-js",
+  "version": "1.0.0",
+  "description": "A library for creating in-situ guided tours, help interfaces and onboarding flows for your web app. No dependencies needed.",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-rename": "^1.4.0",
+    "readable-stream": "^3.4.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samhynds/orient-js.git"
+  },
+  "author": "Sam Hynds",
+  "license": "MIT"
+}

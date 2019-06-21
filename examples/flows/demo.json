@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Welcome to Orient",
+    "media": {
+      "type": "image",
+      "url": "/examples/media/slide1.jpg"
+    },
+    "body": "Orient is a JS library for easily creating in-situ guided tours, help systems and onboarding flows. You're currently seeing the first slide of an Orient Flow!",
+    "style": "modal",
+    "onShow": "console.log('Runs when the first slide is shown')"
+  },
+  {
+    "title": "Easy to Create Flows",
+    "media": {
+      "type": "video",
+      "url": "/examples/media/slide2.mp4"
+    },
+    "body": "Define flows in simple external JSON files or even an API endpoint. Flows are made up of multiple slides, just like this one.",
+    "style": "float",
+    "target": "slide1-title"
+  },
+  {
+    "title": "A multitude of applications",
+    "media": {
+      "type": "video",
+      "url": "/examples/media/slide3.mp4"
+    },
+    "body": "Orient is designed to be incredibly easy to integrate into projects, no matter what technology you're using.",
+    "style": "float",
+    "target": ".basket-button"
+  },
+  {
+    "title": "Onboard new users with ease",
+    "body": "Give your new users a smooth onboarding experience with interactive, in-situ messaging.",
+    "style": "float",
+    "target": "bioluminescence-image"
+  },
+  {
+    "title": "Integrate with your help system",
+    "body": "Reduce customer support requests by implementing guided help with Orient.",
+    "style": "float",
+    "target": ".categories-nav-button"
+  },
+  {
+    "title": "Advanced Options",
+    "body": "Hook into internal Orient events and run custom Javascript when a flow or even an individual slide begins or ends.",
+    "style": "float",
+    "target": ".columns .column:nth-child(3)"
+  },
+  {
+    "title": "Flexible & Custom Styling",
+    "body": "Choose from a number of styles including modals, in-situ floats, sidebars and completely custom styling. Mix and match different styles of slides.",
+    "style": "sidebar",
+    "extraClasses": [
+      "custom-class",
+      "add-any-class-you-want"
+    ]
+  }
+]

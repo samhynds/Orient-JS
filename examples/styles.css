@@ -1,0 +1,21 @@
+.product-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.product-description {
+  margin-bottom: 15px;
+}
+
+/* An example of styling when specifying a custom CSS class for a slide (shown on the final slide). */
+.add-any-class-you-want {
+  background: #009cff;
+  color: yellow;
+  font-family: monospace;
+}
+
+.add-any-class-you-want .orient-slide__button {
+  color: red;
+  background: #00ff42;
+}
