@@ -522,11 +522,23 @@ function Orient(options) {
    */
   this.getElAbsolutePosition = function (el) {
     var rect = el.getBoundingClientRect();
+    var scrollX;
+    var scrollY;
+
+    // IE compatibility for scrollX and scrollY
+    if (window.scrollX && window.scrollY) {
+      scrollX = window.scrollX;
+      scrollY = window.scrollY;
+    } else {
+      scrollX = window.pageXOffset;
+      scrollY = window.pageYOffset;
+    }
+
     return {
-      left: rect.left + window.scrollX,
-      right: rect.right + window.scrollX,
-      top: rect.top + window.scrollY,
-      bottom: rect.bottom + window.scrollY,
+      left: rect.left + scrollX,
+      right: rect.right + scrollX,
+      top: rect.top + scrollY,
+      bottom: rect.bottom + scrollY,
       height: rect.height,
       width: rect.width
     };
