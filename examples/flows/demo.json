@@ -3,7 +3,7 @@
     "title": "Welcome to Orient",
     "media": {
       "type": "image",
-      "url": "/examples/media/slide1.jpg"
+      "url": "media/slide1.jpg"
     },
     "body": "Orient is a JS library for easily creating in-situ guided tours, help systems and onboarding flows. You're currently seeing the first slide of an Orient Flow!",
     "style": "modal",
@@ -13,7 +13,7 @@
     "title": "Easy to Create Flows",
     "media": {
       "type": "video",
-      "url": "/examples/media/slide2.mp4"
+      "url": "media/slide2.mp4"
     },
     "body": "Define flows in simple external JSON files or even an API endpoint. Flows are made up of multiple slides, just like this one.",
     "style": "float",
@@ -23,7 +23,7 @@
     "title": "A multitude of applications",
     "media": {
       "type": "video",
-      "url": "/examples/media/slide3.mp4"
+      "url": "media/slide3.mp4"
     },
     "body": "Orient is designed to be incredibly easy to integrate into projects, no matter what technology you're using.",
     "style": "float",
