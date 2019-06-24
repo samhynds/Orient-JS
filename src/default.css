@@ -102,7 +102,7 @@
 .orient-slide__button-wrapper {
   margin-top: 25px;
   height: 32px;
-  box-sizing: unset;
+  box-sizing: content-box;
 }
 
 .orient-slide__button {
